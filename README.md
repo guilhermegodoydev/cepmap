@@ -11,10 +11,8 @@ Aplicação web que permite ao usuário buscar endereços a partir de um **CEP**
 - Interface responsiva com **HTML**, **TailwindCSS** e **JavaScript**
 
 ## 🎥 Demonstração
-<p align="center">
-  <img src="./src/assets/gif_desktop_1.gif" width="48%" style="margin-right:2%;" />  
-  <img src="./src/assets/gif_desktop_2.gif" width="48%"/>
-</p>
+<img src="./src/assets/gif_desktop_1.gif"/>  
+<img src="./src/assets/gif_desktop_2.gif"/>
 
 ## 🧩 Tecnologias Utilizadas
 
