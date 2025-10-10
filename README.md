@@ -10,6 +10,12 @@ Aplicação web que permite ao usuário buscar endereços a partir de um **CEP**
 - Destaque da área aproximada do CEP com um **retângulo geográfico**
 - Interface responsiva com **HTML**, **TailwindCSS** e **JavaScript**
 
+## 🎥 Demonstração
+<p align="center">
+  <img src="./src/assets/gif_desktop_1.gif" width="48%" style="margin-right:2%;" />  
+  <img src="./src/assets/gif_desktop_2.gif" width="48%"/>
+</p>
+
 ## 🧩 Tecnologias Utilizadas
 
 - **HTML** + **TailwindCSS**
