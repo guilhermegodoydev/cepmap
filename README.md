@@ -47,7 +47,7 @@ cd buscador-cep
 npm install
 ```
 
-3. Gere o CSSdo Tailwind:
+3. Gere o CSS do Tailwind:
 ```powershell
 npx tailwindcss -i ./src/css/input.css -o ./dist/output.css --minify
 ```
