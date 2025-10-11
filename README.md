@@ -47,27 +47,29 @@ cd buscador-cep
 npm install
 ```
 
-3. Copie o arquivo de variáveis de ambiente e adicione sua chave:
+3. Gere o CSSdo Tailwind:
+```powershell
+npx tailwindcss -i ./src/css/input.css -o ./dist/output.css --minify
+```
 
+4. Copie o arquivo de variáveis de ambiente e adicione sua chave:
 ```powershell
 copy .env.example .env
 ```
 
-4. Abra o arquivo .env em um editor de texto e substitua LOCATIONIQ pela sua chave real.
+5. Abra o arquivo .env em um editor de texto e substitua LOCATIONIQ pela sua chave real.
 
-5. Instale o Netlify CLI globalmente (se ainda não tiver):
-
+6. Instale o Netlify CLI globalmente (se ainda não tiver):
 ```powershell
 npm install -g netlify-cli
 ```
 
-6. Rode o servidor local com Netlify CLI para ativar as funções serverless:
-
+7. Rode o servidor local com Netlify CLI para ativar as funções serverless:
 ```powershell
 netlify dev
 ```
 
-7. Abra o navegador no endereço que o Netlify CLI indicar (normalmente http://localhost:8888).
+8. Abra o navegador no endereço que o Netlify CLI indicar (normalmente http://localhost:8888).
 
 ### Observações
 
