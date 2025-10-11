@@ -96,6 +96,11 @@ form.addEventListener('submit', async function(e) {
       const cidade = document.getElementById('cidade').value;
       const rua = document.getElementById('rua').value;
 
+      if (/\d/.test(rua)) {
+        ExibirMsgErro('Digite o nome da Rua sem o número', msgErro, input);
+        return;
+      }
+
       const cepLocal = await BuscarCepPorEndereco(RemoverAcentos(estado), RemoverAcentos(cidade), RemoverAcentos(rua));
       saida.textContent = 'CEP: ' + cepLocal;
       const dataCep = await BuscarEndereco(cepLocal);
