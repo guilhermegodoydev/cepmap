@@ -42,27 +42,34 @@ git clone https://github.com/guilhermegodoydev/buscador-cep.git
 cd buscador-cep
 ```
 
-2. Copie o arquivo de variáveis de ambiente e adicione sua chave:
+2. Instale as dependências do projeto:
+```powershell
+npm install
+```
 
+3. Gere o CSS do Tailwind:
+```powershell
+npx tailwindcss -i ./src/css/input.css -o ./dist/output.css --minify
+```
+
+4. Copie o arquivo de variáveis de ambiente e adicione sua chave:
 ```powershell
 copy .env.example .env
 ```
 
-3. Abra o arquivo .env em um editor de texto e substitua LOCATIONIQ pela sua chave real.
+5. Abra o arquivo .env em um editor de texto e substitua LOCATIONIQ pela sua chave real.
 
-4. Instale o Netlify CLI globalmente (se ainda não tiver):
-
+6. Instale o Netlify CLI globalmente (se ainda não tiver):
 ```powershell
 npm install -g netlify-cli
 ```
 
-5. Rode o servidor local com Netlify CLI para ativar as funções serverless:
-
+7. Rode o servidor local com Netlify CLI para ativar as funções serverless:
 ```powershell
 netlify dev
 ```
 
-6. Abra o navegador no endereço que o Netlify CLI indicar (normalmente http://localhost:8888).
+8. Abra o navegador no endereço que o Netlify CLI indicar (normalmente http://localhost:8888).
 
 ### Observações
 
