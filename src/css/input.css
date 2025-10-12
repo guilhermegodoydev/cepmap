@@ -6,7 +6,7 @@
     }
 
     body {
-        background-image: url('../assets/fundo.webp'), url('../assets//fundo.jpg');
+        background-image: url('../src/assets/fundo.webp'), url('../src/assets/fundo.jpg');
         @apply m-0 bg-cover backdrop-brightness-35 min-h-screen text-white
     }
 
@@ -38,6 +38,6 @@
     }
 
     .zoomMapa {
-        @apply absolute left-0 top-0 w-full h-full;
+        @apply fixed inset-0;
     }
 }
